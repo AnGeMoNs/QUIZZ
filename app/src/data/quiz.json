@@ -1,0 +1,904 @@
+[
+  {
+    "category": "Música",
+    "question": "¿Quién es el cantante\nde la banda Queen?",
+    "options": [
+      "Michael Jackson",
+      "Freddie Mercury",
+      "Brian Mey",
+      "Kurt Cobain"
+    ],
+    "answer": "Freddie Mercury"
+  },
+  {
+    "category": "Música",
+    "question": "Banda que canta\nla canción 'La voz de los 80'",
+    "options": [
+      "Los tres",
+      "Los prisioneros",
+      "Los Bunkers",
+      "Chancho en Piedra"
+    ],
+    "answer": "Los prisioneros"
+  },
+  {
+    "category": "Música",
+    "question": "¿Quién canta la canción \n'Smells like a teen spirit'?",
+    "options": [
+      "Pink Floyd",
+      "Cachureo",
+      "Nirvana",
+      "Pearl jam"
+    ],
+    "answer": "Nirvana"
+  },
+  {
+    "category": "Música",
+    "question": "Nombre de la última banda\nChilena en grabar un \nconcierto MTV Unplugged",
+    "options": [
+      "Los Tres",
+      "Los Bunkers",
+      "La Ley",
+      "Glup!"
+    ],
+    "answer": "Los Bunkers"
+  },
+  {
+    "category": "Música",
+    "question": "¿Qué artista cante\n'Shape ff You'?",
+    "options": [
+      "Bruno Mars",
+      "Justin Bieber",
+      "Ed Sheeran",
+      "Shaw Mendes"
+    ],
+    "answer": "Ed Sheeran"
+  },
+  {
+    "category": "Música",
+    "question": "¿Cuál es la nacionalidad\nde Daddy Yankee?",
+    "options": [
+      "Estado Unidos",
+      "Cuba",
+      "Puerto Rico",
+      "Perú"
+    ],
+    "answer": "Puerto Rico"
+  },
+  {
+    "category": "Música",
+    "question": "¿Quién canta \n'all i want for christmas is you?",
+    "options": [
+      "Mariah Carey",
+      "Beyoncé",
+      "Angélica Flores",
+      "Whitney \nHouston"
+    ],
+    "answer": "Mariah Carey"
+  },
+  {
+    "category": "Música",
+    "question": "¿Cuál de las siguientes canciones\nno es de la banda Cafe tvcuba?",
+    "options": [
+      "Eres",
+      "Afuera",
+      "Las flores",
+      "Ingrata"
+    ],
+    "answer": "Afuera"
+  },
+  {
+    "category": "Música",
+    "question": "¿En que año se separaron Los \nBeatles?",
+    "options": [
+      "1960.0",
+      "1963.0",
+      "1970.0",
+      "2025.0"
+    ],
+    "answer": "1970.0"
+  },
+  {
+    "category": "Música",
+    "question": "¿Quién canta la canción\nNo Me Hables de sufrir?",
+    "options": [
+      "Los Prisioneros",
+      "La ley",
+      "Lucybell",
+      "Los Bunkers"
+    ],
+    "answer": "Los Bunkers"
+  },
+  {
+    "category": "Música",
+    "question": "¿Qué cantante chilena, también nacionalizada mexicana, interpreta la canción \"Tu tanta falta de querer\"?",
+    "options": [
+      "Mon Laferte",
+      "Dua Lipa",
+      "Belanova",
+      "Natalia Lafourcade"
+    ],
+    "answer": "Mon Laferte"
+  },
+  {
+    "category": "Música",
+    "question": "La frase \"Gracias a la vida que me ha dado tanto\" es de:",
+    "options": [
+      "Camila",
+      "Gloria Benavides",
+      "Violeta Parra",
+      "Myriam Hernández"
+    ],
+    "answer": "Violeta Parra"
+  },
+  {
+    "category": "Música",
+    "question": "¿Quién es conocido mundialmente como el «Rey del Pop»?",
+    "options": [
+      "Justin Bieber",
+      "Bruno Mars",
+      "Austin Mahome",
+      "Michael Jackson"
+    ],
+    "answer": "Michael Jackson"
+  },
+  {
+    "category": "Música",
+    "question": "¿Qué banda lanzó la canción exitosa “Livin’ on a Prayer”?",
+    "options": [
+      "AC/DC",
+      "Bon Jovi",
+      "Guns N' Roses",
+      "Metallica"
+    ],
+    "answer": "Bon Jovi"
+  },
+  {
+    "category": "Música",
+    "question": "¿Qué boy band lanzó el éxito “I Want It That Way”?",
+    "options": [
+      "Backstreet Boys",
+      "CNCO",
+      "One Direction",
+      "5SOS"
+    ],
+    "answer": "Backstreet Boys"
+  },
+  {
+    "category": "Música",
+    "question": "¿Quién es conocid@ por la canción \"Dímelo Ma\"?",
+    "options": [
+      "Milo J",
+      "Marcianeke",
+      "Katteyes",
+      "Jairo Vera"
+    ],
+    "answer": "Marcianeke"
+  },
+  {
+    "category": "Música",
+    "question": "¿Qué grupo interpreta el clásico de la música urbana chilena \"Originala\"?",
+    "options": [
+      "Portavoz",
+      "Shamanes Crew",
+      "Movimiento Original",
+      "Tiro de Gracia"
+    ],
+    "answer": "Movimiento Original"
+  },
+  {
+    "category": "Música",
+    "question": "¿Cómo se llama la canción romántica en la que Porta le rapea a un amor idealizado que aún no conoce en persona?",
+    "options": [
+      "Mi rosa negra",
+      "Palabras Mudas",
+      "Puras mentiras",
+      "Querida Alma Gemela"
+    ],
+    "answer": "Querida Alma Gemela"
+  },
+  {
+    "category": "Música",
+    "question": "¿Cuál es la famosa canción de Hatsune Miku en la que exige ser tratada como la \"princesa número uno del mundo\"?",
+    "options": [
+      "World is mine",
+      "PoPiPo",
+      "Melt",
+      "Senbonzakura"
+    ],
+    "answer": "World is mine"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Cuál es el videojuego más \nvendido de la historia?",
+    "options": [
+      "Tetris",
+      "Minecraft",
+      "Grand The Auto\nV",
+      "UCN Game \n2025"
+    ],
+    "answer": "Tetris"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Cómo se llama este personaje?\nFoto de Amy Rose",
+    "options": [
+      "Cream",
+      "Amy Rose",
+      "Rouge",
+      "Rosy"
+    ],
+    "answer": "Amy Rose"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Cuál es la última versión lanzada\nhasta ahora del videojuego \nMinecraft? (Java)",
+    "options": [
+      "1.20",
+      "1.21",
+      "1.22",
+      "1.23"
+    ],
+    "answer": "1.21"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Cuál fue el primer trabajo de \nSuper Mario?",
+    "options": [
+      "Ingeniero",
+      "Plomero",
+      "Carpintero",
+      "Profesor\nAdscrito \nA la UCN"
+    ],
+    "answer": "Carpintero"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Que compañía diseño y lanzo \nPacman?",
+    "options": [
+      "Nintendo",
+      "Sony",
+      "Game Freak",
+      "Mamco"
+    ],
+    "answer": "Mamco"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Qué estudio\nde videojuegos es creador de la\nsaga Red Dead Redemption?",
+    "options": [
+      "Mojang",
+      "Rockstars \nGame",
+      "Electronic\nArts",
+      "Ubisoft"
+    ],
+    "answer": "Rockstars \nGame"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Cuándo se lanzó Call of Duty\n por primera vez?",
+    "options": [
+      "2000.0",
+      "2001.0",
+      "2002.0",
+      "2003.0"
+    ],
+    "answer": "2003.0"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Como se llama el personaje de la imagen?",
+    "options": [
+      "Giroide",
+      "Nosk",
+      "Hyu",
+      "Omochao"
+    ],
+    "answer": "Hyu"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿cuantos animatronicos seleccionables se encuentran en Five Nights at Freddy’s: Ultimate Custom Night?",
+    "options": [
+      "50.0",
+      "52.0",
+      "51.0",
+      "58.0"
+    ],
+    "answer": "50.0"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Como se llama el personaje de la imagen?",
+    "options": [
+      "Bing bon",
+      "Bong Bing",
+      "Bing Bing",
+      "Bing Bong"
+    ],
+    "answer": "Bing Bong"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Qué material necesitas para craftear un faro (Beacon) en Minecraft además de vidrio y obsidiana?",
+    "options": [
+      "Una Estrella del Nether",
+      "Bloques de Redstone",
+      "Lápiz lázuli",
+      "Polvo de Glowstone"
+    ],
+    "answer": "Una Estrella del Nether"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Quién es la mascota de Nintendo?",
+    "options": [
+      "Pikachu",
+      "Kratos",
+      "Mario",
+      "Crash Bandicoot"
+    ],
+    "answer": "Mario"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Cómo se llama el oso de FNAF?",
+    "options": [
+      "Alfredo",
+      "Freddy",
+      "Fed Man",
+      "Winnie Pooh"
+    ],
+    "answer": "Freddy"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Qué jefe de Elden Ring monta un caballo ridículamente pequeño debido a que domina la magia gravitacional?",
+    "options": [
+      "General Radahn, el Azote de las Estrellas",
+      "Jinete de la arborescencia (Tree Sentinel)",
+      "Comandante Niall",
+      "Loretta, caballería del Árbol Hierático"
+    ],
+    "answer": "General Radahn, el Azote de las Estrellas"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Cuál fue la primera consola de videojuegos casera de la historia?",
+    "options": [
+      "Brown Box",
+      "Atari 2600",
+      "Magnavox Odyssey",
+      "Pong (Home Edition)"
+    ],
+    "answer": "Magnavox Odyssey"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Qué famosa consola de Sony nació originalmente como un accesorio de CD-ROM cancelado para Nintendo?",
+    "options": [
+      "PlayStation",
+      "Sega Saturn",
+      "Panasonic 3DO",
+      "Philips CD-i"
+    ],
+    "answer": "PlayStation"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Cómo se llamaba la icónica mascota que Sega creó a finales de los 80 antes de inventar a Sonic?",
+    "options": [
+      "Rista",
+      "Alex Kidd",
+      "Pulseman",
+      "Opa-Opa"
+    ],
+    "answer": "Alex Kidd"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Cuál fue el primer juego de la saga The Legend of Zelda en dar el salto completo a los gráficos en 3D?",
+    "options": [
+      "The Legend of Zelda: Ocarina of Time",
+      "The Legend of Zelda: Majora's Mask",
+      "The Legend of Zelda: Link's Awakening",
+      "The Legend of Zelda: A Link to the Past"
+    ],
+    "answer": "The Legend of Zelda: Ocarina of Time"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Cómo se llama el dispositivo portátil con forma de esfera que se usa para capturar monstruos en Pokémon?",
+    "options": [
+      "Gigante Ball",
+      "Esfera Cápsula",
+      "Pokébola",
+      "Bakugan"
+    ],
+    "answer": "Pokébola"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Qué significan las siglas \"RPG\" en los géneros de videojuegos?",
+    "options": [
+      "Real-time Path Generation",
+      "Role-Playing Game",
+      "Random Proximity Generator",
+      "Rapid Progression Gameplay"
+    ],
+    "answer": "Role-Playing Game"
+  },
+  {
+    "category": "Series/Películas",
+    "question": "Seria animada\ndonde aparece\nPolicarpo Avendaño",
+    "options": [
+      "Los Simpson",
+      "Padre de\nfamilia",
+      "Clarence",
+      "31 Minutos"
+    ],
+    "answer": "31 Minutos"
+  },
+  {
+    "category": "Series/Películas",
+    "question": "¿Cuál es el protagonista\nde la seríe Los Simpson?",
+    "options": [
+      "Homero",
+      "Marge",
+      "Lisa",
+      "Bart"
+    ],
+    "answer": "Homero"
+  },
+  {
+    "category": "Series/Películas",
+    "question": "¿A qué saga de películas\n pertenece el personaje\n conocido como Jack Sparrow?",
+    "options": [
+      "El señor\nde los anillos",
+      "Piratas del \ncaribe",
+      "Orgullo y\nprejuicio",
+      "Crepusculo"
+    ],
+    "answer": "Piratas del \ncaribe"
+  },
+  {
+    "category": "Series/Películas",
+    "question": "¿En qué película\n Leonardo DiCaprio interpreta\n al personaje Jack Dawson?",
+    "options": [
+      "Inception",
+      "Titanic",
+      "The revenant",
+      "The beach"
+    ],
+    "answer": "Titanic"
+  },
+  {
+    "category": "Series/Películas",
+    "question": "¿En que año se estreno \nToy Story (1)?",
+    "options": [
+      "1994.0",
+      "1995.0",
+      "1996.0",
+      "1997.0"
+    ],
+    "answer": "1996.0"
+  },
+  {
+    "category": "Series/Películas",
+    "question": "¿Cómo se llama este\n personaje? (Foto de Rigby)",
+    "options": [
+      "Rigby",
+      "Mordecai",
+      "Musculoso",
+      "Fantasmín"
+    ],
+    "answer": "Rigby"
+  },
+  {
+    "category": "Series/Películas",
+    "question": "¿Qué personaje de Spy × Family \npuede leer la mente?",
+    "options": [
+      "James Bond",
+      "Yor Forger",
+      "Loid Forger",
+      "Anya Forger"
+    ],
+    "answer": "Anya Forger"
+  },
+  {
+    "category": "Series/Películas",
+    "question": "¿Cuál es la verdadera identidad\n de Sailor Moon?",
+    "options": [
+      "Usagi Tsukino",
+      "Luna",
+      "Rei Hino",
+      "Minako Aino"
+    ],
+    "answer": "Usagi Tsukino"
+  },
+  {
+    "category": "Series/Películas",
+    "question": "En Jujutsu Kaisen, \n¿cuál es el nombre del espíritu\n maldito que habita dentro \ndel protagonista?",
+    "options": [
+      "Gojo Satoru",
+      "Ryomen Sukuna",
+      "Geto Suguru",
+      "El Trauco"
+    ],
+    "answer": "Ryomen Sukuna"
+  },
+  {
+    "category": "Series/Películas",
+    "question": "En Inuyasha (latino),\n ¿cómo llama Jaken a Sesshomaru?",
+    "options": [
+      "Sessho-chan",
+      "Amo bonito",
+      "Chikistrikis",
+      "Su merced"
+    ],
+    "answer": "Amo bonito"
+  },
+  {
+    "category": "Series/Películas",
+    "question": "¿Como se llama el personaje de la imagen?",
+    "options": [
+      "Puchita",
+      "Popocha",
+      "Pochita",
+      "Carlos"
+    ],
+    "answer": "Pochita"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Cuál es la capital de \nEcuador?",
+    "options": [
+      "Santiago",
+      "Sucre",
+      "Quito",
+      "El Salvador"
+    ],
+    "answer": "Quito"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Nombre del último\nZar de rusia?",
+    "options": [
+      "Alejandro II de\nRusia",
+      "Nicolás II de \nRusia",
+      "Byron II de\nRusia",
+      "Pedro II de\nRusia"
+    ],
+    "answer": "Nicolás II de \nRusia"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿En que año inicio\nla primera guerra \nmundial?",
+    "options": [
+      "1914.0",
+      "1918.0",
+      "1910.0",
+      "108.0"
+    ],
+    "answer": "1914.0"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Cuál es el idioma\nmás hablado en el \nmundo?",
+    "options": [
+      "Español",
+      "Inglés",
+      "Jerigonza",
+      "Chino Mandarín"
+    ],
+    "answer": "Chino Mandarín"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Cuál fue el último\nemparador inca?",
+    "options": [
+      "Tupac Yupanqui",
+      "Atahualpa",
+      "Hayna Cápac",
+      "Huáscar"
+    ],
+    "answer": "Atahualpa"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Quién pinto la capilla\nsixtina?",
+    "options": [
+      "Miguel\nde cervantes",
+      "Darío Contreras",
+      "Miguel Ángel",
+      "Leonardo da \nVinci"
+    ],
+    "answer": "Miguel Ángel"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿De qué país es origen\nel sushi?",
+    "options": [
+      "China",
+      "Japón",
+      "Corea del \nNorte",
+      "Corea del \nSur"
+    ],
+    "answer": "Japón"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Cuántos años tiene un lustro?",
+    "options": [
+      "5.0",
+      "2.0",
+      "10.0",
+      "20.0"
+    ],
+    "answer": "5.0"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿A quién se le atribuye la\nfrase \"yo sé que nada sé\"",
+    "options": [
+      "Sócrates",
+      "Artistóteles",
+      "Diego Urrutia",
+      "Platón"
+    ],
+    "answer": "Platón"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Qué es un ánimal carnivoro?",
+    "options": [
+      "Que solo come\nlechuga",
+      "Que solo come\nplatantas",
+      "Que solo come\ncarne",
+      "Que come de \ntodo (No es regodión)"
+    ],
+    "answer": "Que solo come\ncarne"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Quién escribió el himno chileno?",
+    "options": [
+      "Eusebio Lillo",
+      "Arturo Prat",
+      "Víctor Jara",
+      "Manuel Baquedano"
+    ],
+    "answer": "Eusebio Lillo"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Cuáles eran los colores de la primera bandera chilena?",
+    "options": [
+      "Azul, verde y rojo",
+      "Azul, blanco y amarillo",
+      "Amarillo, negro y morado",
+      "Blanco, azul y rojo"
+    ],
+    "answer": "Azul, blanco y amarillo"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Quién fue elegido presidente de Chile tras la dictadura militar de Augusto Pinochet?",
+    "options": [
+      "Michelle Bachelet",
+      "Eduardo Frei",
+      "Salvador Allende",
+      "Patricio Aylwin"
+    ],
+    "answer": "Patricio Aylwin"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Cuál fue el movimiento social liderado por estudiantes chilenos que demandaba reformas educativas en 2006?",
+    "options": [
+      "La Revolución de los Claveles",
+      "La Revolución Estudiantil",
+      "La Revolución pingüina",
+      "Estallido social"
+    ],
+    "answer": "La Revolución pingüina"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Quién fue presidente de Chile durante el terremoto del 27 de febrero de 2010?",
+    "options": [
+      "Michelle Bachelet",
+      "Sebastián Piñera",
+      "Ricardo Lagos Escobar",
+      "Leonardo Farkas"
+    ],
+    "answer": "Michelle Bachelet"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Cuál es el río más largo de Chile?",
+    "options": [
+      "Río Maipo",
+      "Río Loa",
+      "Río Bíobío",
+      "Río Amazonas"
+    ],
+    "answer": "Río Loa"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Quién escribió La Odisea?",
+    "options": [
+      "Virgilio",
+      "Sófocles",
+      "Homero",
+      "Aristóteles"
+    ],
+    "answer": "Homero"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿Quién es el autor de la novela Cien años de soledad?",
+    "options": [
+      "Pablo Neruda",
+      "Miguel de Cervantes",
+      "Don Quijote de la Mancha",
+      "Gabriel García Márquez"
+    ],
+    "answer": "Gabriel García Márquez"
+  },
+  {
+    "category": "Cultura general",
+    "question": "¿En qué isla del Atlántico Sur falleció Napoleón Bonaparte en su segundo exilio?",
+    "options": [
+      "Isla de Elba",
+      "Isla de la reunión",
+      "Isla Santa Elena",
+      "Isla Martín García"
+    ],
+    "answer": "Isla Santa Elena"
+  },
+  {
+    "category": "Cultura general",
+    "question": "Qué país ha ganado más Copas Mundiales de la FIFA?",
+    "options": [
+      "Brasil",
+      "Francia",
+      "Argentina",
+      "España"
+    ],
+    "answer": "Brasil"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "Carrera que fue integrada\nrecientemente al DISC",
+    "options": [
+      "Ingeniería\nCivil Energía",
+      "Ingeniería  \nCivil Electrónica",
+      "Ingeniería en\nConstrucción",
+      "Ingeniería en\nSoftware"
+    ],
+    "answer": "Ingeniería  \nCivil Electrónica"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "Año de creación del DISC",
+    "options": [
+      "1985.0",
+      "1991.0",
+      "1979.0",
+      "1975.0"
+    ],
+    "answer": "1979.0"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "Nombre del académico que fue\ndirector del departamento en el\naño 2019",
+    "options": [
+      "Ítalo Donoso",
+      "Claudio Meneses",
+      "Aldo Quelopana",
+      "Carlos Pon"
+    ],
+    "answer": "Claudio Meneses"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "¿Cuantos programas de posgrado\ntiene el DISC?",
+    "options": [
+      "No tiene",
+      "1.0",
+      "2.0",
+      "3.0"
+    ],
+    "answer": "2.0"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "Nombre del encargado de soporte\ndel DISC",
+    "options": [
+      "Maurcio\n Hernández",
+      "Oswaldo Menendez",
+      "Claudio Meneses",
+      "Diego Urrutia"
+    ],
+    "answer": "Maurcio\n Hernández"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "¿Cuál es el nombre del edificio donde \nse encuentra el DISC?",
+    "options": [
+      "V2",
+      "X3",
+      "Y2",
+      "Y1"
+    ],
+    "answer": "Y1"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "¿En qué bloque se desarrolla la reunión\nde los académicos del departamento?",
+    "options": [
+      "Lunes D",
+      "Martes D",
+      "Miércoles D",
+      "Jueves D"
+    ],
+    "answer": "Miércoles D"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "¿Cuanto dura el rol del director\nde departamento?",
+    "options": [
+      "1 Año",
+      "2 Años",
+      "3 Años",
+      "4 Años"
+    ],
+    "answer": "2 Años"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "Nombre de la secretaria de docencia\ndel DISC",
+    "options": [
+      "Dima Morales",
+      "Génesis Olivares",
+      "Evelyn Hormazabal",
+      "Angélica Flores"
+    ],
+    "answer": "Evelyn Hormazabal"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "¿Cuál\nes el nombre\nla decada de nuestra facultad?",
+    "options": [
+      "Carolina Rojas",
+      "Angélica Flores",
+      "María Hernández",
+      "Mariela Tapia"
+    ],
+    "answer": "Carolina Rojas"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "¿A qué facultad pertenece el DISC?",
+    "options": [
+      "FACEA",
+      "FICG",
+      "DGpre",
+      "Humanidades"
+    ],
+    "answer": "FICG"
+  },
+  {
+    "category": "Cultura general DISC/Universidad",
+    "question": "¿Cuál es el nombre del secretario\ndocente de nuestra facultad?",
+    "options": [
+      "Oswaldo Menendez",
+      "Diego Urrutia",
+      "Brian Keith",
+      "Ítalo Donoso"
+    ],
+    "answer": "Ítalo Donoso"
+  }
+]
