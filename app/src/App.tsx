@@ -11,6 +11,38 @@ type Question = {
   answer: string;
 };
 
+// Play simple sounds using Web Audio API
+const playSound = (type: 'correct' | 'incorrect') => {
+  try {
+    const AudioContext = window.AudioContext || (window as any).webkitAudioContext;
+    const ctx = new AudioContext();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    
+    if (type === 'correct') {
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(440, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(880, ctx.currentTime + 0.1);
+      gain.gain.setValueAtTime(0.1, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.5);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.5);
+    } else {
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(300, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(150, ctx.currentTime + 0.2);
+      gain.gain.setValueAtTime(0.1, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.3);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.3);
+    }
+  } catch(e) {
+    console.error("Audio not supported");
+  }
+};
+
 // We shuffle the questions so each player gets a different mix
 const shuffleArray = <T,>(array: T[]): T[] => {
   const newArr = [...array];
@@ -98,6 +130,23 @@ const Quiz = ({ onComplete }: { onComplete: (score: number, total: number) => vo
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [score, setScore] = useState(0);
   const [isAnswering, setIsAnswering] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(15);
+
+  // Timer logic
+  useEffect(() => {
+    if (isAnswering || questions.length === 0) return;
+    
+    if (timeLeft <= 0) {
+      handleOptionClick(null); // time out
+      return;
+    }
+
+    const timer = setInterval(() => {
+      setTimeLeft(prev => prev - 1);
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [timeLeft, isAnswering, questions]);
 
   useEffect(() => {
     // Select 40 random questions for a quick game
@@ -109,7 +158,7 @@ const Quiz = ({ onComplete }: { onComplete: (score: number, total: number) => vo
 
   const currentQ = questions[currentIndex];
   
-  const handleOptionClick = (option: string) => {
+  const handleOptionClick = (option: string | null) => {
     if (isAnswering) return;
     
     setIsAnswering(true);
@@ -118,6 +167,9 @@ const Quiz = ({ onComplete }: { onComplete: (score: number, total: number) => vo
     const isCorrect = option === currentQ.answer;
     if (isCorrect) {
       setScore(prev => prev + 1);
+      playSound('correct');
+    } else {
+      playSound('incorrect');
     }
 
     setTimeout(() => {
@@ -125,6 +177,7 @@ const Quiz = ({ onComplete }: { onComplete: (score: number, total: number) => vo
         setCurrentIndex(prev => prev + 1);
         setSelectedOption(null);
         setIsAnswering(false);
+        setTimeLeft(15); // reset timer
       } else {
         onComplete(score + (isCorrect ? 1 : 0), questions.length);
       }
@@ -142,9 +195,14 @@ const Quiz = ({ onComplete }: { onComplete: (score: number, total: number) => vo
       className="glass-panel"
       style={{ width: '100%' }}
     >
-      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', alignItems: 'center' }}>
         <span className="badge">{currentQ.category}</span>
-        <span>{currentIndex + 1} / {questions.length}</span>
+        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+          <span style={{ color: timeLeft <= 5 ? '#ff3d00' : 'var(--text-color)', fontWeight: 'bold' }}>
+            ⏳ {timeLeft}s
+          </span>
+          <span>{currentIndex + 1} / {questions.length}</span>
+        </div>
       </div>
 
       <div className="progress-container">
@@ -197,7 +255,12 @@ const Results = ({ name, score, total, onRestart }: { name: string, score: numbe
         {score} <span style={{ fontSize: '2rem', color: 'var(--text-color)' }}>/ {total}</span>
       </div>
       
-      <p style={{ marginBottom: '2rem' }}>Puntos obtenidos</p>
+      <p style={{ marginBottom: '2rem', fontSize: '1.2rem', fontStyle: 'italic', color: '#a0a0a0' }}>
+        {score === total ? '¡PERFECCIÓN ABSOLUTA! Eres un genio 🧠' : 
+         score >= total * 0.8 ? '¡Excelente trabajo! Casi invencible 🔥' : 
+         score >= total * 0.5 ? 'Bien hecho, pero puedes mejorar 💪' : 
+         '¡Uy! Necesitas estudiar un poco más 📚'}
+      </p>
       
       <button className="btn-primary" onClick={onRestart}>
         Jugar de Nuevo
